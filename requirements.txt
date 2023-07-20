@@ -44,3 +44,8 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
+
+# existing dependencices
+# ...
+# add the Pyodide kernel
+jupyterlite-pyodide-kernel
