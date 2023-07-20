@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#
+# simtool
+#
+/usr/bin/invoke_app "$@" -t srqueriertool \
+                         -C "start_jupyter -A -t -T @tool SRQuerierTool.ipynb" \
+                         -c installToolSessionSRIM.sh \
+                         -u srim-2013.00 \
+                         -u anaconda-7 \
+                         -r none \
+                         -w headless
