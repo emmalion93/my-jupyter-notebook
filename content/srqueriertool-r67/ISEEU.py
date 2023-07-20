@@ -1,5 +1,4 @@
 import os
-import hublib.use
 
 import warnings
 with warnings.catch_warnings():
@@ -15,8 +14,6 @@ with warnings.catch_warnings():
     import pandas as pd
     import seaborn as sns
     
-    from srim import SR, Ion, Layer, Target
-warnings.simplefilter(action='ignore', category=pd.errors.PerformanceWarning)
 
 user_data_folder = "../../../srqueriertool_data"
 
